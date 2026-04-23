@@ -1,8 +1,8 @@
-# Healthcare Management Backend API
+Healthcare Management Backend API
 
 A Django-based REST API for managing patients, doctors, and their assignments using JWT authentication and PostgreSQL.
 
-## 🚀 Getting Started
+🚀 Getting Started
 
 ### 1. Setup Virtual Environment
 ```bash
@@ -31,7 +31,7 @@ python manage.py migrate
 ```bash
 python manage.py runserver
 
-🛠 API Endpoints
+### 🛠 API Endpoints
 Authentication
 POST /api/auth/register/ - Register a new user
 
@@ -44,7 +44,7 @@ GET/POST /api/patients/ - Manage patients (User-specific)
 
 GET/POST /api/mappings/ - Assign doctors to patients
 
-✨ Features
+### ✨ Features
 JWT Security: All healthcare data endpoints are protected.
 
 Data Isolation: Users can only see and manage patients they have personally created.
